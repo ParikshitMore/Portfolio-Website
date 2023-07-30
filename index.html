@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parikshit More - Portfolio </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="sample.css">
+    <script href="sample.js">
+
+        function cmd() 
+        {
+            window.location.href = "https://github.com/ParikshitMore"; // I'm using example but you can use google.
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="Left">Parikshit's Portfolio</div>
+            <div class="Right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">About Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!--First Section-->
+        <section class="firstSection">
+            <div class="leftSection">
+
+                Hi, My name is <span class="purple">Parikshit</span> and I am a Passionate
+                <!-- Element to contain animated typing -->
+                <span id="element"></span>
+
+                <div class="buttons">
+                    <a href="https://drive.google.com/file/d/1M4Rxob1ub0u3Iqs9q70Rq5xTS6ZUtSFD/view?usp=drive_link" target=”_blank” > <button class="btn">Download Resume</button></a>
+                    <a href="https://github.com/ParikshitMore" target=”_blank” > <button class="btn">Visit Github</button></a>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="developer.png" alt="">
+            </div>
+        </section>
+
+        <hr> <!-- to give a horizontal line -->
+
+        <!--Second Section-->
+        <section class="secondSection">
+            <span class="text-gery">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="browser.png">
+                    <div class="vertical-title">HTML Developer</div>
+                    <div class="vertical-desc">
+                        Learned HTML, CSS from Youtube and this Portfolio website is developed using the same
+                        and hosted on Firebase Databse.
+                    </div>
+                </div>
+
+                <div class="vertical"><img class="image-top" src="android.png">
+                    <div class="vertical-title">App Development</div>
+                    <div class="vertical-desc">
+                        Started learning Android App Development from Youtube and published app on playstore.
+                        This app is basically about cricket predictions.
+                    </div>
+                </div>
+
+
+                <div class="vertical"><img class="image-top" src="blog.png">
+                    <div class="vertical-title">Blogging</div>
+                    <div class="vertical-desc">
+                        I love writing so continuing this passion , I statred a blog on Blogger.com with a domain
+                        from GoDaddy.com. Currently this blog is about various worldwide events going around the World.
+                    </div>
+                </div>
+
+                <div class="vertical"><img class="image-top" src="youtube.png">
+                    <div class="vertical-title">YouTuber</div>
+                    <div class="vertical-desc">
+                        Statred my Youtube Channel back then in 2018 and started posting gameplay videos. Currently this
+                        channel has
+                        71 videos and about 65000 views.
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+
+        </div>
+        <div class="footer-rights">Copyright &#169; ParikshitPortfolio.com</div>
+    </footer>
+
+    <!-- Typed js cdn link-->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Blogger', 'YouTuber'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
